@@ -10,7 +10,7 @@ namespace ChainOfResponsibilityPattern {
 
             foods = ['Banana', 'Nuts', 'Coffee', 'Stones'];
 
-            // CONCRETE HANDLERS INSTCANCES
+            // CONCRETE HANDLER INSTANCES
             monkeyHandler = new ChainOfResponsibilityPattern.MonkeyHandler();
             humanHandler = new ChainOfResponsibilityPattern.HumanHandler();
             squirrelHandler = new ChainOfResponsibilityPattern.SquirellHandler();
