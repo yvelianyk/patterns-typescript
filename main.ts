@@ -1,4 +1,5 @@
 /// <reference path="behaviour/chain-of-responsibility/usage.ts" />
+/// <reference path="behaviour/strategy/usage.ts" />
 //
 //
 //
@@ -74,7 +75,7 @@ namespace Patterns {
                 // case 18 : show(MementoPattern); break;
                 // case 19 : show(ObserverPattern); break;
                 // case 20 : show(StatePattern); break;
-                // case 21 : show(StrategyPattern); break;
+                case 21 : show(StrategyPattern); break;
                 // case 22 : show(TemplateMethodPattern); break;
                 // case 23 : show(VisitorPattern); break;
                 default : break;

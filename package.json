@@ -1,0 +1,25 @@
+{
+  "name": "patterns-typescript",
+  "version": "1.0.0",
+  "description": "Learning Design Patterns",
+  "main": "patterns.js",
+  "scripts": {
+    "compile": "tsc",
+    "run": "node patterns.js",
+    "compile-run": "npm run compile && npm run run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvelianyk/patterns-typescript.git"
+  },
+  "author": "Yaroslav Velianyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yvelianyk/patterns-typescript/issues"
+  },
+  "homepage": "https://github.com/yvelianyk/patterns-typescript#readme",
+  "dependencies": {
+    "typescript": "^3.3.1"
+  }
+}
