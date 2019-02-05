@@ -1,6 +1,7 @@
 /// <reference path="behaviour/chain-of-responsibility/usage.ts" />
 /// <reference path="behaviour/strategy/usage.ts" />
 /// <reference path="behaviour/memento/usage.ts" />
+/// <reference path="behaviour/mediator/usage.ts" />
 //
 //
 //
@@ -72,7 +73,7 @@ namespace Patterns {
                 // case 14 : show(CommandPattern); break;
                 // case 15 : show(InterpreterPattern); break;
                 // case 16 : show(IteratorPattern); break;
-                // case 17 : show(MediatorPattern); break;
+                case 17 : show(MediatorPattern); break;
                 case 18 : show(MementoPattern); break;
                 // case 19 : show(ObserverPattern); break;
                 // case 20 : show(StatePattern); break;
