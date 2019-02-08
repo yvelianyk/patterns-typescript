@@ -2,6 +2,7 @@
 /// <reference path="behaviour/strategy/usage.ts" />
 /// <reference path="behaviour/memento/usage.ts" />
 /// <reference path="behaviour/mediator/usage.ts" />
+/// <reference path="creational/factory-method/usage.ts" />
 //
 //
 //
@@ -59,7 +60,7 @@ namespace Patterns {
             switch(+answer) {
                 // case 1 : show(SingletonPattern); break;
                 // case 2 : show(AbstractFactoryPattern); break;
-                // case 3 : show(FactoryMethodPattern); break;
+                case 3 : show(FactoryMethodPattern); break;
                 // case 4 : show(BuilderPattern); break;
                 // case 5 : show(PrototypePattern); break;
                 // case 6 : show(AdapterPattern); break;
