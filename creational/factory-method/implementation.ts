@@ -32,7 +32,7 @@ namespace FactoryMethodPattern {
             const taxAmount = 100;
             result += taxAmount;
 
-            console.log(`COMMON METHOD ADD 100$ TAXES: ${result}$`);// TODO: remove it
+            console.log(`COMMON METHOD ADD 100$ TAXES: ${result}$`);
             return result;
 
         }
