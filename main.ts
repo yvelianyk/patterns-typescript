@@ -6,6 +6,7 @@
 /// <reference path="creational/abstract-factory/usage.ts" />
 /// <reference path="creational/builder/usage.ts" />
 /// <reference path="creational/prototype/usage.ts" />
+/// <reference path="creational/singleton/usage.ts" />
 //
 //
 //
@@ -61,7 +62,7 @@ namespace Patterns {
         printMenu();
         rl.question("Which pattern would you like to check?   ", function(answer) {
             switch(+answer) {
-                // case 1 : show(SingletonPattern); break;
+                case 1 : show(SingletonPattern); break;
                 case 2 : show(AbstractFactoryPattern); break;
                 case 3 : show(FactoryMethodPattern); break;
                 case 4 : show(BuilderPattern); break;
