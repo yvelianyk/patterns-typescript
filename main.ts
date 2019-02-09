@@ -7,6 +7,7 @@
 /// <reference path="creational/builder/usage.ts" />
 /// <reference path="creational/prototype/usage.ts" />
 /// <reference path="creational/singleton/usage.ts" />
+/// <reference path="structural/adapter/usage.ts" />
 //
 //
 //
@@ -67,7 +68,7 @@ namespace Patterns {
                 case 3 : show(FactoryMethodPattern); break;
                 case 4 : show(BuilderPattern); break;
                 case 5 : show(PrototypePattern); break;
-                // case 6 : show(AdapterPattern); break;
+                case 6 : show(AdapterPattern); break;
                 // case 7 : show(BridgePattern); break;
                 // case 8 : show(CompositePattern); break;
                 // case 9 : show(DecoratorPattern); break;
