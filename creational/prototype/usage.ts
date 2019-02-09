@@ -10,7 +10,7 @@ namespace PrototypePattern {
 
             users.push(user1);
 
-            console.log('USER1:', user1);// TODO: remove it
+            console.log('USER1:', user1);
 
             const user1Cloned = user1.clone();
 
@@ -20,10 +20,12 @@ namespace PrototypePattern {
 
             users.push(user1Cloned);
 
+            console.log('USER1 AFTER CLONING:', user1);
+            console.log('CLONE FROM USER1:', user1Cloned);
 
-            console.log('USER1 AFTER CLONING:', user1);// TODO: remove it
-            console.log('CLONE FROM USER1:', user1Cloned);// TODO: remove it
+            const adminUser = new PrototypePattern.AdminUser(12, 'Yaroslav', 'male');
 
+            users.push(adminUser);
 
             // CLONE USER OBJECT AND CREATE COPY OF USERS ONE MORE TIME
             // Also, User can have subclasses with implemented method 'clone'
@@ -35,7 +37,7 @@ namespace PrototypePattern {
                clonedUsers.push(user.clone());
             });
 
-            console.log('CLONED USERS: ', clonedUsers);// TODO: remove it
+            console.log('CLONED USERS: ', clonedUsers);
 
         }
 

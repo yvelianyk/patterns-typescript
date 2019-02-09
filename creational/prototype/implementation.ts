@@ -32,4 +32,19 @@ namespace PrototypePattern {
         }
     }
 
+    export class AdminUser extends User implements Prototype {
+        private isAdmin: boolean;
+
+        constructor(age: number, name: string, sex: string) {
+            super(age, name, sex);
+            this.isAdmin = true;
+        }
+
+        clone(): AdminUser {
+            let clonedUser = super.clone() as AdminUser;
+            clonedUser.isAdmin = true;
+            return clonedUser;
+        }
+    }
+
 }
