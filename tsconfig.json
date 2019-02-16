@@ -1,13 +1,15 @@
 {
     "compilerOptions": {
         "module": "system",
-        "target": "ES5",
+        "target": "ES6",
         "noImplicitAny": false,
         "sourceMap": false,
         "outFile": "patterns.js"
     },
+    "lib": [
+        "node"
+    ],
     "files": [
-        "main.ts",
-        "behaviour/chain-of-responsibility/usage.ts"
+        "main.ts"
     ]
 }
