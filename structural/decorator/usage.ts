@@ -16,15 +16,15 @@ namespace DecoratorPattern {
                 )
             );
 
-            console.log('SOURCE TEXT: ', fileContent);// TODO: remove it
+            console.log('SOURCE TEXT: ', fileContent);
 
             encryptedCompressedDataSource.writeData(fileContent);
 
-            console.log('ENCRYPTED: ============================');// TODO: remove it
-            console.log(plainDataSource.readData());// TODO: remove it
+            console.log('ENCRYPTED: ============================');
+            console.log(plainDataSource.readData());
 
-            console.log('DECRYPTED: ============================');// TODO: remove it
-            console.log(encryptedCompressedDataSource.readData());// TODO: remove it
+            console.log('DECRYPTED: ============================');
+            console.log(encryptedCompressedDataSource.readData());
 
         }
 

@@ -9,6 +9,7 @@
 /// <reference path="creational/singleton/usage.ts" />
 /// <reference path="structural/adapter/usage.ts" />
 /// <reference path="structural/decorator/usage.ts" />
+/// <reference path="structural/facade/usage.ts" />
 //
 //
 //
@@ -73,7 +74,7 @@ namespace Patterns {
                 // case 7 : show(BridgePattern); break;
                 // case 8 : show(CompositePattern); break;
                 case 9 : show(DecoratorPattern); break;
-                // case 10 : show(FacadePattern); break;
+                case 10 : show(FacadePattern); break;
                 // case 11 : show(FlyweightPattern); break;
                 // case 12 : show(ProxyPattern); break;
                 case 13 : show(ChainOfResponsibilityPattern); break;
