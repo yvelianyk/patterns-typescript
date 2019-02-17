@@ -2,6 +2,7 @@
 /// <reference path="behaviour/strategy/usage.ts" />
 /// <reference path="behaviour/memento/usage.ts" />
 /// <reference path="behaviour/mediator/usage.ts" />
+/// <reference path="behaviour/command/usage.ts" />
 /// <reference path="creational/factory-method/usage.ts" />
 /// <reference path="creational/abstract-factory/usage.ts" />
 /// <reference path="creational/builder/usage.ts" />
@@ -78,7 +79,7 @@ namespace Patterns {
                 // case 11 : show(FlyweightPattern); break;
                 // case 12 : show(ProxyPattern); break;
                 case 13 : show(ChainOfResponsibilityPattern); break;
-                // case 14 : show(CommandPattern); break;
+                case 14 : show(CommandPattern); break;
                 // case 15 : show(InterpreterPattern); break;
                 // case 16 : show(IteratorPattern); break;
                 case 17 : show(MediatorPattern); break;
