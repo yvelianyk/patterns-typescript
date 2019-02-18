@@ -11,6 +11,7 @@
 /// <reference path="structural/adapter/usage.ts" />
 /// <reference path="structural/decorator/usage.ts" />
 /// <reference path="structural/facade/usage.ts" />
+/// <reference path="structural/bridge/usage.ts" />
 //
 //
 //
@@ -72,7 +73,7 @@ namespace Patterns {
                 case 4 : show(BuilderPattern); break;
                 case 5 : show(PrototypePattern); break;
                 case 6 : show(AdapterPattern); break;
-                // case 7 : show(BridgePattern); break;
+                case 7 : show(BridgePattern); break;
                 // case 8 : show(CompositePattern); break;
                 case 9 : show(DecoratorPattern); break;
                 case 10 : show(FacadePattern); break;
